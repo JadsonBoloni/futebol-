@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Top 20 melhores jogadores de futebol de todos os tempos com estatísticas completas: gols, assistências, recordes, títulos e mais.">
+    <title>🏆 Top 20 Melhores Jogadores de Futebol de Todos os Tempos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>🏆 Melhores Jogadores de Todos os Tempos</h1>
+            <p class="header-description">
+                Estatísticas completas dos maiores craques do futebol mundial, incluindo gols, assistências, recordes quebrados, títulos e métricas de eficiência.
+            </p>
+        </header>
+
+        <!-- Stats Overview -->
+        <div class="stats-grid" id="statsOverview">
+            <!-- Estatísticas gerais serão populadas pelo JS -->
+        </div>
+
+        <!-- Controles de Filtro e Ordenação -->
+        <div class="controls">
+            <div class="controls-inner">
+                <div class="sort-control">
+                    <label class="sort-label" for="sortSelect">Ordenar por:</label>
+                    <select class="sort-select" id="sortSelect">
+                        <option value="rating">Aproveitamento Geral</option>
+                        <option value="goals">Gols</option>
+                        <option value="assists">Assistências</option>
+                        <option value="records">Recordes</option>
+                        <option value="titles">Títulos</option>
+                        <option value="matches">Partidas Jogadas</option>
+                        <option value="gpm">Gols por Partida</option>
+                        <option value="impact">Índice de Impacto</option>
+                    </select>
+                </div>
+                
+                <div class="tabs" id="tabsContainer">
+                    <!-- Abas serão populadas pelo JS -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Grid de Jogadores -->
+        <div class="players-grid" id="playersGrid">
+            <!-- Jogadores serão populados pelo JS -->
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p class="footer-text">
+                Dados históricos compilados de fontes oficiais do futebol mundial. Site otimizado para 2023.
+            </p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
