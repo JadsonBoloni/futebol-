@@ -36,4 +36,5 @@ const players = [
         image: "https://via.placeholder.com/300x200/3b82f6/ffffff?text=Puskás"
     },
     {
-        id: 10, name: "Franz Beckenbauer", goals: 109}
+        id: 10, name: "Franz Beckenbauer", goals: 109
+    }
